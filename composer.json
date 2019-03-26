@@ -11,9 +11,7 @@
         "psr/http-message": "^1.0"
     },
     "autoload": {
-        "psr-4": {
-            "composer \\":"src/"
-        }
+        "files": ["src/functions.php","src/functions_strict.php" ]
     },
     "require-dev": {
         "twbs/bootstrap": "^4.3"

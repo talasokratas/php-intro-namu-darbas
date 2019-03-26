@@ -1,7 +1,14 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ritmas
- * Date: 26/03/2019
- * Time: 20:05
- */
+<?php declare(strict_types=1);
+
+namespace Nfq\Akademija\Strict;
+function strict(...$numbers) {
+    calculateHomeWorkSum($numbers);
+};
+
+function calculateHomeWorkSum(int...$numbers): int {
+    $sum = 0;
+    foreach($numbers as $number) {
+    $sum += $number;
+}
+return $sum;
+}
