@@ -1,0 +1,21 @@
+{
+    "name": "Evaldas/php_intro_namu_darbas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Evaldas Vaitonis",
+            "email": "evaldas.vaitonis@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "composer \\":"src/"
+        }
+    },
+    "require-dev": {
+        "twbs/bootstrap": "^4.3"
+    }
+}
