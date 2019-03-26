@@ -3,6 +3,7 @@ NFQ akademijos php intro paskaitos uzduotis
 
 •Paaiškinti: • kodėl:
              Nfq\Akademija\Soft\calculateHomeWorkSum(3, 2.2, ‘1’) yra 6?
+  
   Funkcija priėmė įvairaus tipo parametrus juos paversdama į int tipą: 2.2 suapvalino iki 2, nes int tai sveikasis skaičius
 
 • kas ir kodėl nutiko bandant kviesti:
